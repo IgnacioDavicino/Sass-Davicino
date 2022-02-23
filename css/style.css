@@ -1,0 +1,47 @@
+*{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+body{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar__logo{
+    height: 30px;
+    width: 30px;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.carousel__img{
+    width: 100%;
+}
+
+footer{
+    color: white;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer__ul{
+    list-style: none;
+}
+
+.footer__li{
+    margin-bottom: 1rem;
+}
