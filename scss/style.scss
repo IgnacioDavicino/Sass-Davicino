@@ -1,0 +1,35 @@
+@import "_footer";
+$gradientbg: linear-gradient(to right, #E4E5E6, #00416A);
+
+*{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+body{
+    background:$gradientbg
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        border-radius: 50%;
+    width: 40%;
+    }
+}
+
+.navbar {
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+.carousel{
+    img{
+        width: 100%;
+    }
+}
